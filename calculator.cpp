@@ -2,16 +2,27 @@
 
 int Calculator::Add (double a, double b)
 {
-    return a + b;
+  return a + b;
 }
 
-<<<<<<< HEAD
 int Calculator::Sub (double a, double b)
 {
-    return Add (a, -b);
-=======
+  return Add (a, -b);
+}
+
 int Calculator::Mul (double a, double b)
 {
     return a * b + 0.5;
->>>>>>> e0ea21b (add a multiplication operation)
+}
+
+// Extra method for division
+int Calculator::Div (double a, double b)
+{
+    return a / b + 0.5;
+}
+
+// Extra method for 3 variables
+int Calculator::Add_Plus_Sub (double a, double b, double c)
+{
+    return a + b - c;
 }
